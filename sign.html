@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign.css">
+    
+
+</head>
+<body>
+    <div class="container">
+  <form action="">
+      <h1 class="mainheading"> Sign Up</h1>
+     
+
+      
+      
+      <p>Name: <input type="text" name="Name" required placeholder=" Type your name..."></p>
+    <p>Email: <input type="email" name="email" id="email" required placeholder="Type your email id.."></p>
+   <p>Password: <input type="password" name="pass" title="Password must be 8 characters including 1 uppercase letter, 1 lowercase letter and numeric characters" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Type password here" ></p>
+
+   <p class="agree">
+    <input type="checkbox" name="agree" id="agree" value="agree" /> <label for='agree'>Do you agree to the terms?</label></p>
+
+    
+
+    
+    <input type="submit" value="Submit">
+    <p>Allready signed in? <a href="login.com">Login</a></p>
+    
+    
+  </form>
+</div>  
+</body>
+</html>
